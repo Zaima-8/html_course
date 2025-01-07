@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first website</title>
+</head>
+<body style="background-color:tomato">
+    <h1>My first form</h1>
+    <hr>
+    <h2  style="font-family:Georgia, 'Times New Roman', Times, serif;"> Trying fonts!</h2>
+    <h3 style="font-size:xx-large; color: white;"><u>Sizes</u></h3>
+
+    <form action="action_page" method="get">
+
+        <div>
+            <lable>First name:</lable>
+            <input type="text" placeholder="Enter first name" required>
+        </div>
+
+        <br>
+
+        <div>
+            <lable for="lname">Last name:</lable>
+            <input type="text" id="lname" name="lname" placeholder="Enter last name" required>
+        </div>
+
+        <br>
+
+        <div>
+            <lable for="pass">Password:</lable>
+            <input type="password" id="pass" name="pass" placeholder="Enter password" maxlength="12" required>
+        </div>
+
+        <br>
+
+        <div>
+            <lable for="email">Email:</lable>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+        </div>
+
+        <br>
+
+        <div>
+            <lable for="phone">Phone Number:</lable>
+            <input type="tel" id="tel" name="tel" placeholder="+(123)456 789" required>
+        </div>
+
+        <br>
+
+        <div>
+            <lable for="bdate">Birthdate:</lable>
+            <input type="date" id="bdate" name="bdate" required>
+        </div>
+
+        <br>
+
+        <div>
+            <lable for="quantity">Quantity:</lable>
+            <input type="number" id="quantity" name="quantity"min="0" max="100" value="1">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="title"> Title:</label>
+
+            <lable for="mr."> Mr</lable>
+            <input type="radio" id="mr." name="title" value="Mr.">
+    
+            <lable for="mrs."> Mrs</lable>
+            <input type="radio" id="mrs." name="title"  value="Mrs.">
+      
+            <lable for="phd."> PhD</lable>
+            <input type="radio" id="phd" name="title"  value="PhD.">
+        </div>
+
+        <br>
+        <div>
+        <label for="payment">Payment:</label>
+        <select Id="payment" name="payment">
+            <option value="Visa">Visa</option>
+            <option value="mastercard">Mastercard</option>
+            <option value="creditcard">Creditcard</option>
+        </select>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="subscribe"> Subscribed:</label>
+            <input type="radio" id="subscribe" name="subscribe">
+
+            <label for="not subscribe"> Not Subscribed:</label>
+            <input type="radio" id="not subscribe" name="subscribe">
+        </div>
+        <p style="color:white;"> ipsum, dolor sit amet consectetur  elit. Odio, explicabo libero. Illum perspiciatis, nesciunt exercitationem tempora natus similique facere hic corporis earum consequatur odio excepturi eligendi placeat consectetur eaque? Eveniet?</p>
+
+        <br>
+        <form>
+            <label for="comment">Comment:</label>
+            <textarea id="comment"  name="comment" placeholder="Leave a comment here...."></textarea>
+        </form>
+
+        <br>
+        <div>
+            <input type="reset">
+        </div>
+
+        <br>
+
+        <div>
+            <input type="submit">
+        </div>
+
+
+
+
+
+    </form>
+</body>
+</html>
